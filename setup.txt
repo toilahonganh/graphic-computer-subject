@@ -1,0 +1,14 @@
+Set up std_image
+
+Dev C++ 
+Program > Project Option > Directories > Include Directories > `link folder contains std_image`
+
+Hướng dẫn cấu hình OPEN GL
+1. Copy file glut.dll vào thư mục C:\Windows\System32
+2. Copy file trong thư mục lib ---> C:\Program Files (x86)\Dev-Cpp\MinGW64\x86_64-w64-mingw32\lib
+3. Copy file trong thư mục include/GL --> C:\Program Files (x86)\Dev-Cpp\MinGW64\x86_64-w64-mingw32\include\GL
+4. Tạo file -> Console
+5. Cấu hình: Chọn project -> project options -> Parameters -> ngay linker thêm vào 
+-lopengl32
+-lfreeglut
+-lglu32
